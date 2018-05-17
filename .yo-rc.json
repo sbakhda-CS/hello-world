@@ -1,0 +1,10 @@
+{
+  "@c12e/generator-cortex": {
+    "promptValues": {
+      "projectName": "hello-world",
+      "projectPrefix": "hw"
+    },
+    "projectName": "hello-world",
+    "projectPrefix": "hw"
+  }
+}

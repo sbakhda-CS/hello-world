@@ -1,0 +1,26 @@
+camel: 1.0.0
+name: hw/echo
+title: Hello World
+description: Echo text
+inputs:
+  - name: input1
+    title: input1
+    parameters:
+      - name: text
+        type: string
+        description: Update this description
+        required: true
+    routing:
+      all:
+        action  : hw/echo
+        runtime: cortex/functions
+        output: output1
+
+outputs:
+  - name: output1
+    title: output1
+    parameters:
+      - name: text
+        type: string
+        description: Update this description
+        required: true
